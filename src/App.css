@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #608be2;   /* css for app header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(2, 2, 2);
+}
+
+.input-container {
+  margin: 20px 0;            /* css for Input Container */
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;            /* css for input */
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;              /* css for button */
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;                     /* css for list */
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 5px 0;
+  width: 300px;
+  border-radius: 5px;
+}
+
+li div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li span {
+  font-size: 18px;
+}
+
+li small {
+  font-size: 12px;
+  color: #000000;
+}
+
+li button {
+  background: #e74b4b;
+  color: rgb(0, 0, 0);
+  border: none;                         /* delete button*/
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
